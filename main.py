@@ -10,10 +10,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 links = []
 list = []
-with open('/home/sayonaryi/Документы/mit/list.txt', 'r') as f:
+with open('list.txt', 'r') as f:
     list = f.readlines()
 
-with open('/home/sayonaryi/Документы/mit/links.txt', 'r') as f:
+with open('links.txt', 'r') as f:
     links = f.readlines()
 
 
