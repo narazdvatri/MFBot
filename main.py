@@ -17,7 +17,7 @@ with open('links.txt', 'r') as f:
     links = f.readlines()
 
 
-def start(bot,update):
+def start(update,context):
 
     update.message.reply_text('@MinterFAQBot – бот с которым Вы за считанные\n'
                               'секунды найдете ссылку с ответом на вопрос о\n'
