@@ -62,7 +62,7 @@ def error(update, context):
 
 
 def main():
-    updater = Updater("926861603:AAGr0DO7Vf1PuHi6BAhwIxJBorZQepI7yfc")
+    updater = Updater("926861603:AAEEwvfQL6xBCG6SaaU9Wd5EQfEKPGsQxeI")
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
 
