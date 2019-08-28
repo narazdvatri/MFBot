@@ -23,7 +23,7 @@ def start(update,context):
                               "секунды найдете ссылку с ответом на вопрос о "
                               "блокчейн-проекте Minter Network. \n\n"
                               "Чтобы воспользоваться ботом напишите: `@MinterFAQBot ключевое слово`. \n\n"
-                              "По ошибкам, идеям и пожеланиям пишите в @MinterFAQSupportBot, а если сочтете данного бота полезным и захотите поддержать разработку: Mx43d569c043ebac8eef10baaab0af0d8a1664d5a7")
+                              "По ошибкам, идеям и пожеланиям пишите в @MinterFAQSupportBot")
 
     # bot.send_video(chat_id=update.message.chat_id, video=open('video.mp4', 'rb'), supports_streaming=True)
 
