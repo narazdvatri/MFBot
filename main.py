@@ -21,7 +21,7 @@ def start(update,context):
 
     update.message.reply_text('@MinterFAQBot – бот с которым Вы за считанные '
                               'секунды найдете ссылку с ответом на вопрос о '
-                              'блокчейн-проекте Minter Network. \n'
+                              'блокчейн-проекте Minter Network. \n\n'
                              'Для того, чтобы получить ссылку с ответом отправьте `@MinterFAQBot ключевое слово`')
 
     # bot.send_video(chat_id=update.message.chat_id, video=open('video.mp4', 'rb'), supports_streaming=True)
